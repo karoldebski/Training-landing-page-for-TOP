@@ -34,6 +34,7 @@ header {
     font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
+    padding-right:60px;
 }
 #hero a:link, #hero a:visited {
     color: white;
@@ -42,6 +43,7 @@ header {
 #hero .content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -50,7 +52,7 @@ header {
     max-width: auto;
 }
 #hero .content .hero-typo {
-    min-width: 600px;
+    min-width: 200px;
     max-width: 600px;
 }
 #hero .content .hero-title {
@@ -76,6 +78,7 @@ header {
     width: auto;
     padding: 10px 30px;
     border: 10px;
+    margin-bottom: 30px;
 }
 #hero .content .hero-img {
     flex: 1;
@@ -86,7 +89,7 @@ header {
     text-align:center;
     padding-top: 100px;
     max-width: 600px;
-    min-width: 400px;
+    min-width: 200px;
 }
 
 
@@ -189,16 +192,22 @@ header {
     font-weight: 200;
 }
 #banner button {
-    display: block;
-    padding-left: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     color: white;
     font-weight: 600;
     border-radius: 8px;
-    padding: 10px 30px;;
+    padding: 10px 30px;
     border: 2px solid white;
     margin-top: -35px;
+    margin-left: 600px;
+    max-width: 150px;
 }
+
+
 footer {
     background-color: #1F2937;
     color: white;
